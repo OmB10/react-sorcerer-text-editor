@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { Editor, EditorState, Modifier, convertFromRaw, convertToRaw, RichUtils, getDefaultKeyBinding } from 'draft-js';
+import React, { useState, useCallback } from 'react';
+import { Editor, EditorState, Modifier, convertFromRaw, RichUtils, getDefaultKeyBinding } from 'draft-js';
 import 'draft-js/dist/Draft.css';
 import Button from './Button';
 import Title from './Title';
