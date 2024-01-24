@@ -120,6 +120,7 @@ const TextEditor = () => {
             </div>
             <div className='editor'>
                 <Editor
+                    placeholder='Type Something.....'
                     customStyleMap={styleMap}
                     editorState={editorState}
                     onChange={onChange}
