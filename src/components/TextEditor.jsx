@@ -106,12 +106,6 @@ const TextEditor = () => {
         return getDefaultKeyBinding(e);
     };
 
-    useEffect(() => {
-        const contentState = editorState.getCurrentContent();
-        const serializedContent = JSON.stringify(convertToRaw(contentState));
-        localStorage.setItem('editorContent', serializedContent);
-    }, [editorState]);
-
     return (
         <div className='container'>
             <div className='btn-div'>
